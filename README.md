@@ -9,8 +9,8 @@ For more implementation details, please refer to my blog article [Enhancing 3D S
 
 
 # Demo
-https://github.com/thomas-graphopti/EnhanceScanning-SCNTechnique-Metal/raw/main/Demo.mp4
-
+<video src="https://github.com/thomas-graphopti/EnhanceScanning-SCNTechnique-Metal/raw/main/Demo.mp4" controls="controls" muted="muted">
+</video>
 
 # License
 
