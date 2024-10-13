@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>passes</key>
+	<dict>
+		<key>pass_depth_filtering</key>
+		<dict>
+			<key>colorStates</key>
+			<dict>
+				<key>clear</key>
+				<true/>
+				<key>clearColor</key>
+				<string>0.0 0.0 0.0 1.0</string>
+			</dict>
+			<key>depthStates</key>
+			<dict>
+				<key>clear</key>
+				<true/>
+			</dict>
+			<key>inputs</key>
+			<dict>
+				<key>colorSampler</key>
+				<string>COLOR</string>
+				<key>depthSampler</key>
+				<string>DEPTH</string>
+			</dict>
+			<key>outputs</key>
+			<dict>
+				<key>color</key>
+				<string>COLOR</string>
+			</dict>
+			<key>metalFragmentShader</key>
+			<string>depth_filtering_fragment</string>
+			<key>metalVertexShader</key>
+			<string>depth_filtering_vertex</string>
+			<key>draw</key>
+			<string>DRAW_QUAD</string>
+		</dict>
+	</dict>
+	<key>sequence</key>
+	<array>
+		<string>pass_depth_filtering</string>
+	</array>
+	<key>targets</key>
+	<dict>
+		<key>MASK</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<key>RESULT</key>
+		<dict>
+			<key>type</key>
+			<string>COLOR</string>
+		</dict>
+	</dict>
+	<key>symbols</key>
+	<dict>
+		<key>vertexSymbol</key>
+		<dict>
+			<key>semantic</key>
+			<string>vertex</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
