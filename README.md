@@ -9,14 +9,7 @@ For more implementation details, please refer to my blog article [Enhancing 3D S
 
 
 # Demo
-
-
-
-<video controls width="100%">
-  <source src="https://github.com/thomas-graphopti/EnhanceScanning-SCNTechnique-Metal/blob/main/Demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+https://github.com/thomas-graphopti/EnhanceScanning-SCNTechnique-Metal/raw/main/Demo.mp4
 
 
 # License
