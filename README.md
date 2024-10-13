@@ -4,8 +4,8 @@ This is a project that aims to enhance the scanning experience for 3D scanning w
 
 For more about SCNTechnique, please refer to [Apple's document](https://developer.apple.com/documentation/scenekit/scntechnique).
 
-For more implementation details, please refer to my blog article [Enhancing 3D Scanning with iPhone LiDAR](https://www.graphopti.com/blog/enhancing-3d-scanning-with-iphone-liDAR).
-
+<!-- For more implementation details, please refer to my blog article [Enhancing 3D Scanning with iPhone LiDAR](https://www.graphopti.com/blog/enhancing-3d-scanning-with-iphone-liDAR).
+ -->
 
 
 # Demo
