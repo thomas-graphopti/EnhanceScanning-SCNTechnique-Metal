@@ -7,6 +7,7 @@ For more about SCNTechnique, please refer to [Apple's document](https://develope
 <!-- For more implementation details, please refer to my blog article [Enhancing 3D Scanning with iPhone LiDAR](https://www.graphopti.com/blog/enhancing-3d-scanning-with-iphone-liDAR).
  -->
 
+If this project helps you, please star this repository. It is important to me. 
 
 # Demo
 
